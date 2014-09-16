@@ -5,7 +5,7 @@ This repository contains the public [AQPhotoPicker](https://github.com/aqavi-par
 
 ## Welcome to the AQPhotoPicker!
 
-It's a cool Photo Picker app for iOS (tested on iPhone, not on iPad yet), and quite easy to use.
+It's a cool Photo Picker app for iOS (tested on iPhone, not on iPad yet), and quite easy to use. With this control, you can capture photos from iPhone camera or select photos from album by implementing only one callback method.
 
 
 ## Requirements
