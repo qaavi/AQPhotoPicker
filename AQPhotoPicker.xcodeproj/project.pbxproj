@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0B91CC19C96BBD000A9066 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0B91C819C96BBD000A9066 /* camera.png */; };
+		AB0B91CD19C96BBD000A9066 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0B91C919C96BBD000A9066 /* camera@2x.png */; };
+		AB0B91CE19C96BBD000A9066 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0B91CA19C96BBD000A9066 /* images.png */; };
+		AB0B91CF19C96BBD000A9066 /* images@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0B91CB19C96BBD000A9066 /* images@2x.png */; };
 		ABC64ACB19C596990046B1C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC64ACA19C596990046B1C2 /* Foundation.framework */; };
 		ABC64ACD19C596990046B1C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC64ACC19C596990046B1C2 /* CoreGraphics.framework */; };
 		ABC64ACF19C596990046B1C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC64ACE19C596990046B1C2 /* UIKit.framework */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB0B91C819C96BBD000A9066 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		AB0B91C919C96BBD000A9066 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		AB0B91CA19C96BBD000A9066 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		AB0B91CB19C96BBD000A9066 /* images@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images@2x.png"; sourceTree = "<group>"; };
 		ABC64AC719C596990046B1C2 /* AQPhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AQPhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC64ACA19C596990046B1C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ABC64ACC19C596990046B1C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -166,6 +174,10 @@
 		ABC64B0519C59B270046B1C2 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				AB0B91C819C96BBD000A9066 /* camera.png */,
+				AB0B91C919C96BBD000A9066 /* camera@2x.png */,
+				AB0B91CA19C96BBD000A9066 /* images.png */,
+				AB0B91CB19C96BBD000A9066 /* images@2x.png */,
 				ABC64B0119C59B220046B1C2 /* add_employeel_image.png */,
 				ABC64B0219C59B220046B1C2 /* add_employeel_image@2x.png */,
 			);
@@ -259,8 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0B91CF19C96BBD000A9066 /* images@2x.png in Resources */,
+				AB0B91CE19C96BBD000A9066 /* images.png in Resources */,
 				ABC64B0319C59B220046B1C2 /* add_employeel_image.png in Resources */,
+				AB0B91CC19C96BBD000A9066 /* camera.png in Resources */,
 				ABC64AE319C596990046B1C2 /* Images.xcassets in Resources */,
+				AB0B91CD19C96BBD000A9066 /* camera@2x.png in Resources */,
 				ABC64B0419C59B220046B1C2 /* add_employeel_image@2x.png in Resources */,
 				ABC64AD519C596990046B1C2 /* InfoPlist.strings in Resources */,
 				ABC64B0A19C59C860046B1C2 /* AQPhotoPickerView.xib in Resources */,
@@ -487,6 +503,7 @@
 				ABC64AFB19C596990046B1C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABC64AFC19C596990046B1C2 /* Build configuration list for PBXNativeTarget "AQPhotoPickerTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +512,7 @@
 				ABC64AFE19C596990046B1C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
