@@ -1,3 +1,5 @@
+# *** This lib is DEPRECATED ***
+
 # The AQPhotoPicker Master Repo
 
 This repository contains the public [AQPhotoPicker](https://github.com/aqavi-paracha/AQPhotoPicker_cocoapod) specifications.
